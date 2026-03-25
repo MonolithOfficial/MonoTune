@@ -18,7 +18,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ./gradlew connectedAndroidTest
 
 # Run a single test class
-./gradlew test --tests "net.darkroom.monolithmaestro.ExampleUnitTest"
+./gradlew test --tests "net.darkroom.monotune.ExampleUnitTest"
 
 # Lint
 ./gradlew lint
@@ -29,7 +29,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture
 
-Single-module Android app (`net.darkroom.monolithmaestro`) using MVVM with Jetpack Compose.
+Single-module Android app (`net.darkroom.monotune`) using MVVM with Jetpack Compose.
 
 **Data flow:**
 1. `TunerViewModel` opens `AudioRecord` and reads chunks (1024 samples @ 44100 Hz) into a circular buffer (2048 samples)

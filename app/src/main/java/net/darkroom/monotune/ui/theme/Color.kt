@@ -1,4 +1,4 @@
-package net.darkroom.monolithmaestro.ui.theme
+package net.darkroom.monotune.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MonolithMaestro"
+rootProject.name = "Monotune"
 include(":app")
  

@@ -1,4 +1,4 @@
-package net.darkroom.monolithmaestro
+package net.darkroom.monotune
 
 import org.junit.Test
 

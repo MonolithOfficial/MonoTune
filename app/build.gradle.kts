@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "net.darkroom.monolithmaestro"
+    namespace = "net.darkroom.monotune"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "net.darkroom.monolithmaestro"
+        applicationId = "net.darkroom.monotune"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
